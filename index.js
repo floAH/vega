@@ -1,5 +1,5 @@
 module.exports = {
-  version: '__VERSION__',
+  version: require('./package.json').version,
   dataflow: require('vega-dataflow'),
   parse: require('./src/parse/'),
   scene: {
